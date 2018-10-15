@@ -1,10 +1,10 @@
-const path = require('path')
-const glob = require('glob')
-const PurgecssPlugin = require('purgecss-webpack-plugin')
+const path = require('path');
+const glob = require('glob');
+const PurgecssPlugin = require('purgecss-webpack-plugin');
 
 const PATHS = {
     src: path.join(__dirname, 'src')
-}
+};
 
 module.exports = function override(config, env) {
     config.plugins = [
@@ -13,7 +13,9 @@ module.exports = function override(config, env) {
             paths: glob.sync(`${PATHS.src}/**/*`, {
                 nodir: true
             }),
-        }),
-    ]
+            whitelist: ['body', 'html'],
+            whitelistPatterns: [/-$/]
+        })
+    ];
     return config;
-}
+};

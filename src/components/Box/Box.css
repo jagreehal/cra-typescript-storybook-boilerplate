@@ -1,8 +1,12 @@
-.box {
+:local(.box) {
   height: 100px;
   width: 100px;
-  border:1px solid var(--message-border, red);
+  border: 1px solid var(--message-border, hotpink);
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+/* :local(.unused) {
+  background: orangered;
+} */
