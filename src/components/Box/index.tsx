@@ -1,6 +1,6 @@
 import React, { SFC } from 'react';
 
-import * as styles from './Box.css';
+import * as styles from './Box.scss';
 
 interface IProps {
   message: string;

@@ -9,13 +9,13 @@ const PATHS = {
 module.exports = function override(config, env) {
     config.plugins = [
         ...config.plugins,
-        new PurgecssPlugin({
-            paths: glob.sync(`${PATHS.src}/**/*`, {
-                nodir: true
-            }),
-            whitelist: ['body', 'html'],
-            whitelistPatterns: [/-$/]
-        })
+        // new PurgecssPlugin({
+        //     paths: glob.sync(`${PATHS.src}/**/*`, {
+        //         nodir: true
+        //     }),
+        //     whitelist: ['body', 'html'],
+        //     whitelistPatterns: [/-$/]
+        // })
     ];
     return config;
 };
