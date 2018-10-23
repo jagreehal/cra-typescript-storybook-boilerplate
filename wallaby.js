@@ -27,7 +27,7 @@ module.exports = function (wallaby) {
       wallaby.testFramework.configure({
         moduleNameMapper: {
           '^.+\\.(jpg|jpeg|png|gif|svg)$': require.resolve('react-scripts-ts/config/jest/fileTransform.js'),
-          '^.+\\.css$': require.resolve('react-scripts-ts/config/jest/cssTransform.js')
+          '^.+\\.(css|scss)$': require.resolve('react-scripts-ts/config/jest/cssTransform.js')
         },
         "testURL": "http://localhost/"
       });

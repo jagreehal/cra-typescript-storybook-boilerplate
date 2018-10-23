@@ -16,12 +16,12 @@
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
-    "@storybook/addon-actions": "v4.0.0-rc.1",
-    "@storybook/addon-info": "v4.0.0-rc.1",
-    "@storybook/addon-knobs": "v4.0.0-rc.1",
-    "@storybook/addon-links": "v4.0.0-rc.1",
-    "@storybook/addons": "v4.0.0-rc.1",
-    "@storybook/react": "v4.0.0-rc.1",
+    "@storybook/addon-actions": "v4.0.0-rc.2",
+    "@storybook/addon-info": "v4.0.0-rc.2",
+    "@storybook/addon-knobs": "v4.0.0-rc.2",
+    "@storybook/addon-links": "v4.0.0-rc.2",
+    "@storybook/addons": "v4.0.0-rc.2",
+    "@storybook/react": "v4.0.0-rc.2",
     "@types/enzyme": "^3.1.14",
     "@types/enzyme-adapter-react-16": "^1.0.3",
     "@types/jest": "^23.3.5",
