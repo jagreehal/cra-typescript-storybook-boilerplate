@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   },
   "scripts": {
     "storybook": "start-storybook -p 9010 -s public",
@@ -24,7 +24,7 @@
     "@storybook/react": "v4.0.0-rc.2",
     "@types/enzyme": "^3.1.14",
     "@types/enzyme-adapter-react-16": "^1.0.3",
-    "@types/jest": "^23.3.5",
+    "@types/jest": "^23.3.7",
     "@types/node": "^10.12.0",
     "@types/react": "^16.4.18",
     "@types/react-dom": "^16.0.9",
@@ -32,15 +32,15 @@
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "glob-all": "^3.1.0",
-    "mini-css-extract-plugin": "^0.4.3",
+    "mini-css-extract-plugin": "^0.4.4",
     "node-sass": "^4.9.4",
     "prettier": "^1.14.3",
-    "purgecss-webpack-plugin": "^1.3.0",
+    "purgecss-webpack-plugin": "^1.3.1",
     "react-app-rewired": "^1.6.2",
     "react-docgen-typescript-loader": "^3.0.0",
     "react-scripts-ts": "4.0.8",
     "typed-css-modules": "^0.3.6",
-    "typescript": "^3.1.1"
+    "typescript": "^3.1.3"
   },
   "browserslist": [
     ">0.2%",
